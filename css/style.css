@@ -186,6 +186,16 @@ nav {
     filter: drop-shadow(0 4px 12px rgba(0, 212, 255, 0.4));
     animation: floatIcon 3s ease-in-out infinite;
 }
+.logo-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.footer-logo .logo-img {
+    width: 40px;
+    height: 40px;
+}
 
 @keyframes floatIcon {
     0%, 100% { transform: translateY(0); }
